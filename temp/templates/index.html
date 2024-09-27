@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Plant Disease Detection Using CNN</title>
+        <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+        <style>
+            body {
+                font-family: "Lato", sans-serif;
+            }
+    
+            .leftbar {
+                height: 100%;
+                width: 400px;
+                position: fixed;
+                z-index: 1;
+                top: 124;
+                left: 0;
+                overflow-x: hidden;
+                padding-top: 20px;
+                background-color: rgba(0,0,0,0.3);
+                
+            }
+    
+            .leftbar a {
+                padding: 6px 6px 6px 30px;
+                text-decoration: none;
+                font-size: 25px;
+                color: black;
+                display: block;
+                font-family: Comic Sans MS;
+            }
+    
+            .leftbar a:hover {
+                color: white;
+                background-color: rgba(0,0,0,0.4);
+            }
+    
+            @media screen and (max-height: 450px) {
+                .leftbar { padding-top: 15px; filter: blur(10px); }
+                .leftbar a { font-size: 18px; }
+            }
+    
+            .navbar {
+                background-color: black;
+            }
+        </style>
+    </head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <h1><strong><b>Plant Disease Detection Using CNN</b></strong></h1>
+        </a>
+        <a href="/login">test</a>
+        <a href="/scan">Scan</a>
+    </div>
+</nav>
+
+
+
+</body>
+</html>

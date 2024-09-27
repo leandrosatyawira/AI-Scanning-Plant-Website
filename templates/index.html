@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Plant Disease Detection Using CNN</title>
+        <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="/static/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  body::after {
+  content: "";
+  background-image: url('/static/image/hydroponic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  filter: blur(1px) brightness(0.6);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.test{
+  background-color: transparent;
+}
+footer{
+          position: fixed;
+        }
+</style>
+    </head>
+<body>
+    <div class="test">
+        <div class="cont">
+            <a href="/">
+                <h1><strong><b>Leafage</b></strong></h1>   
+            </a>
+            <a href="/scan">Scan</a>
+            <a id="interval" href="/scaninterval">ScanInterval</a>
+            <a href="/aboutus">About us</a>
+        </div>
+        <div class="datauser">
+          <a href="/register" id="navbarRegister">Register</a>
+          <span id="navbarUser"></span>
+          <button id="logoutButton">Logout</button>
+          </div>
+        </div>
+
+        <div class="pembuka">
+          <p class="nama">Leafage<a class="titile" href="/aboutus"></a></p>
+          <p class="pem2">Elevating your hidroponic experience!</p>
+          <a class="linktry" href="/scan">Try it right here!</a>
+        </div>
+
+</body>
+<footer class="foot">
+  <div>
+    <p>	&#xA9;Make by Darius Felix Lumawie, Josel Linus, Bun Jak Sin 2023</p>
+  </div>
+  <div>
+    <p>Visit our social media</p>
+    <div class="gambar">
+      <a href="https://twitter.com/home"><img  src="/static/image/logo-white.png" alt="twiter">
+      </a>
+          <a href="https://www.youtube.com/">
+            <img  src="/static/image/yt-red-removebg-preview.png" alt="yt">
+          </a>
+          <a href="https://www.instagram.com/">
+            <img  src="/static/image/ig.png" alt="ig">
+          </a>
+    </div>
+  </div>
+</footer>
+<script src="/static/main.js"></script>
+</html>

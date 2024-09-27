@@ -1,0 +1,160 @@
+.test {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 14px 16px;
+  align-items: center;
+  margin: 0;
+}
+.datauser{
+  position: relative;
+}
+#predictionresult{
+  display: inline;
+}
+#logoutButton{
+  display: none;
+  border: none;
+  padding: 5px;
+  position:absolute;
+  left: 0;  
+  bottom: -30px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+#navbarUser{
+  display: none;
+  font-size: 20px;
+  color: white;
+
+}
+.cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.test a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.gambar-logo{
+  height: 30px;
+  width: 30px;
+}
+.test a:hover {
+  opacity: 0.5;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.cont-about-us{
+  padding: 30px;
+  margin-top: 40px;
+}
+.contt{
+  display: flex;
+  column-gap: 30px;
+  padding: 30px;
+  margin: 5px;
+
+}
+.cont-about-usa{
+  margin: 20px;
+  box-shadow: 10px 10px;
+  border-top: 1px solid black;
+  border: 1px solid black;
+  padding: 20px;
+  max-height: 300px;
+}
+.cont-about-us p{
+  font-size: 20px;
+
+}
+
+footer{
+    margin-top: auto; /* This will automatically take up any extra space and push the footer down */
+    padding-top: 20px; /* This will create space above your footer */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: static;
+  background-color:#000000 ;
+}
+footer p{
+  margin: 0;
+  color: white;
+}
+footer img{
+  height: 20px;
+  width: 20px;
+}
+.gambar{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pembuka{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  row-gap: 15px;
+}
+.nama{
+  color: rgb(255, 255, 255);
+  font-size:40px;
+  margin: 0;
+  font-weight: 500;
+}
+.pembuka a{
+  border: none;
+  background-color: transparent;
+}
+.pem2{
+  font-size: 25px;
+  color: white;
+}
+.titile{
+  font-style: none;
+  text-decoration: none;
+  color: rgb(47, 222, 16);
+}
+.linktry{
+  color: white;
+}
+.predictplace{
+  display: flex;
+  column-gap: 30px;
+  margin: 20px;
+}
+.scancont{
+  padding: 10px;
+}
+#interval{
+  display: none;
+}
+.pred{
+  display: flex;
+}
+#predictButton{
+  border: none;
+  padding: 10px;
+
+}
